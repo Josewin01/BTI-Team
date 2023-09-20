@@ -21,7 +21,7 @@ h3{
     font-size: 1.5rem;
     /* color: white; */
     font-weight: 400;
-    padding: 2rem 0 .5rem;
+    padding: 1rem 0 .5rem;
 }
 h2{
     line-height: 2rem;
@@ -99,12 +99,14 @@ nav ul li a{
 /* ---  About Section  --- */
 
 .about{
-    padding-top: 10rem;
+    text-align: center;
+    padding-top: 7rem;
     background-color: rgb(0, 4, 37);
     /* height: 100vh; */
 }
 
 .about-text{
+    text-align: left;
     width: 50%;
 }
 
@@ -112,4 +114,30 @@ nav ul li a{
     width: 450px;
     /* border: 3px solid red; */
     border-radius: 10px;
+}
+
+
+
+/* --- Team Section --- */
+
+.team{
+    text-align: center;
+    background-color: rgb(0, 3, 27);
+    padding-top: 7rem;
+    height: 100vh;
+}
+
+.team-cols{
+    margin-top: 3rem;
+}
+
+.team-card{
+    background-color: rgb(0, 1, 85);
+    width: 20%;
+}
+
+.team-card-img{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* height: 100px; */
 }
